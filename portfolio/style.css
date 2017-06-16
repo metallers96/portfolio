@@ -50,7 +50,7 @@ color: #000;
 }
 /*top background*/
 .intro-header {
-    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-top: 50px; 
     padding-bottom: 50px;
     text-align: center;
     background: url('https://cdn.pixabay.com/photo/2017/05/18/16/54/laptop-2324121_960_720.jpg') no-repeat center center fixed;
@@ -75,11 +75,7 @@ color: #000;
     color: rgba(255, 255, 255, 0.7);
 }
 
-.intro-divider {
-    width: 400px;
-    border-top: 1px solid #f0f6f8;
-    border-bottom: 1px solid rgba(0,0,0,0.2);
-}
+
 /*small header*/
 .intro-message > h3 {
     text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
@@ -106,6 +102,8 @@ color: #000;
     }
 .intro-divider {
         width: 100%;
+  margin-bottom: 10px;
+  margin-top: 10px;
     }
 
 }
@@ -214,25 +212,31 @@ section {
 }
 
 
-#portfolio .portfolio-item {
-  margin: 0 0 15px;
+#portfolio .portfolio-item portfolio2 {
+  margin:  50px;
   right: 0;
-  border: 10px outset rgba(255, 255, 255, 0.6);
+  border: 2px outset rgba(255, 255, 255, 0.6);
 }
 
 
 #portfolio .portfolio-item .portfolio-caption {
-  max-width: 400px;
-  margin: 0 auto;
+  max-width: 350px;
+  margin:  auto;
   background-color: rgba(0,0,0, 0.8);
   text-align: center;
-  padding: 25px;
+  padding: 15px;
 }
+
+
+
 
 
 #portfolio * {
   z-index: 2;
 }
+
+
+
 
 .section-heading-spacer {
     float: left;
@@ -270,6 +274,8 @@ section {
       text-align: left;
     }
 }
+
+
 
     ul.banner-social-buttons > li {
         display: block;
